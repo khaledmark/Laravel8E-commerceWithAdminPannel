@@ -1,4 +1,4 @@
-{{-- <x-guest-layout>
+<x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
             <x-jet-authentication-card-logo />
@@ -57,9 +57,9 @@
             </div>
         </form>
     </x-jet-authentication-card>
-</x-guest-layout> --}}
+</x-guest-layout>
 
-<x-guest-layout>
+{{-- <x-guest-layout>
     <main id="main" class="main-site left-sidebar">
 
 		<div class="container">
@@ -95,11 +95,11 @@
 									</fieldset>
 									<fieldset class="wrap-input item-width-in-half left-item ">
 										<label for="frm-reg-pass">Password *</label>
-										<input type="Password" id="frm-reg-pass" name="Password" placeholder="Password" required autocomplete="new-password">
+										<input type="Password" id="frm-reg-pass" name="Password" placeholder="Password" required autofocus autocomplete="new-password">
 									</fieldset>
 									<fieldset class="wrap-input item-width-in-half ">
 										<label for="frm-reg-cfpass">Confirm Password *</label>
-										<input type="Password" id="frm-reg-cfpass" name="Password_confirmation" placeholder="Confirm Password" required autocomplete="new-password">
+										<input type="Password" id="frm-reg-cfpass" name="Password_confirmation" placeholder="Confirm Password" required autofocus autocomplete="new-password">
 									</fieldset>
 									<input type="submit" class="btn btn-sign" value="Register" name="register">
 								</form>
@@ -112,4 +112,4 @@
 		</div><!--end container-->
 
 	</main>
-</x-guest-layout>
+</x-guest-layout> --}}
